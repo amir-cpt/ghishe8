@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'ISD-F';
+    src: url(../font/IRANSansDN_Fa_Num.woff);
+}
+
+@font-face {
+    font-family: 'ISD-FB';
+    src: url(../font/IRANSansDN_FaNum-Bold.woff);
+}
+
+@font-face {
+    font-family: 'ISD-FL';
+    src: url(../font/IRANSansDN_FaNum_Light.woff);
+}

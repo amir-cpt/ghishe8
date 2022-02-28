@@ -1,0 +1,156 @@
+/* ***************************************************************** */
+/* ****************************< tablete >*************************** */
+@media (max-width:1366px) {
+
+    main {
+        width: 100%;
+    }
+
+    .head__right {
+        display: none;
+    }
+
+    .head__right__RS {
+        width: 50%;
+        display: flex;
+    }
+    .head__right__RS>div>ul{
+        display: none;
+    }
+
+    .head__baner__Condition div{
+        width: 25px ;
+        height: 25px;
+    }
+
+
+    .main__cover__item {
+        margin: 10px 20px
+    }
+
+    .consert__info__icon {
+        width: 100%;
+    }
+
+    .consert__btn {
+        width: fit-content;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .foter__logo {
+        width: 230px;
+    }
+
+    .foter__logo>img {
+        width: 100px;
+    }
+
+
+    .foter__info {
+        width: 250px;
+    }
+
+}
+
+/* ***************************************************************** */
+/* ****************************< mobile >*************************** */
+
+@media (max-width:768px) {
+
+    main {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .head__right__RS>div>ul{
+        display: none;
+    }
+
+    .head__right__RS__Mobile {
+        display: flex;
+    }
+
+
+
+    .head__left {
+        width: 100px;
+        justify-content: space-between;
+    }
+
+    .head__baner__slider{
+        padding: 0 5px;
+
+    }
+    .head__baner__slider img{
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .head__left>a {
+        display: none;
+    }
+
+    .head__left>input {
+        display: none;
+    }
+
+    .head__left i {
+        display: flex;
+    }
+
+    .head__baner__Condition div{
+        width: 20px ;
+        height: 20px;
+    }
+    .main__cover__item__hover{
+        display: none;
+    }
+
+    .main__cover__item__titr__RS__Mobile{
+        display: block;
+    }
+
+
+    .consert__part {
+        flex-wrap: wrap;
+    }
+
+    .consert__info {
+        width: 100%;
+    }
+
+    .consert__info__DC {
+        text-align: start;
+    }
+
+    .consert__info__icon {
+        flex-wrap: wrap;
+    }
+
+    /* .foter__links{
+        display: none;
+    } */
+
+    .footer {
+        height: fit-content;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .footer__CR>div>p {
+        font-size: 10px;
+    }
+
+
+    .foter__links li a{
+        width: 100px;
+    }
+
+}
